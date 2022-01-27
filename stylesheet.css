@@ -1,6 +1,9 @@
 body{
     border: 2px solid red
-    font-family; "Open Sans"
+    font-family: "Open Sans";
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(233, 233, 233);
 }   
 
 .section-1{
@@ -19,7 +22,8 @@ h1{
 .dog-grid{
     border: 2px solid red;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto; /* default auto */
     justify-content: space-between;
     align-content: flex-start;
 }
@@ -32,6 +36,7 @@ h1{
 }
 
 .flex-footer-container{
+    border: 2px solid red;
     display: flex;
     flex-direction: row;
 
@@ -45,4 +50,5 @@ h1{
 h3{
     color: black;
     font-family; "Open Sans"
+    align-items: center
 }
