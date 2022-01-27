@@ -5,46 +5,41 @@ body{
 
 .section-1{
     background-color: #004175;
-    border-color: #89DEEF;
+    border: 2px solid #89DEEF;;
     color: #ffff;
-    padding: 1em;
+    padding: .25in;
 }
 
 h1{
     color: white;
+    padding-left: 30px;
     font-family: "Open Sans";
-    background-color: blue;
 }
 
-header{
-    border: 2px solid red
-}
-
-.section-2{
-    border: 2px solid red
-    display: grid;
-    width: 50%;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    grid-gap: 1rem;
-    justify-content: center;
-    margin: 5rem;
-}
-
-.dog-container{
-    border: 2px solid red
-    height: 25rem;
-    width: 25rem;
-    margin: 5 rem auto;
-}
-
-.dog-container img{
-    max-width: 50%;
-    height: auto;
+.dog-grid{
+    border: 2px solid red;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
 }
 
-.section-3{
-    border: 2px solid red
+.tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #89DEEF;
+}
+
+.flex-footer-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.footer-container{
+    width: 50%
+    height: 50px
 }
 
 h3{
