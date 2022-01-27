@@ -1,0 +1,53 @@
+body{
+    border: 2px solid red
+    font-family; "Open Sans"
+}   
+
+.section-1{
+    background-color: #004175;
+    border-color: #89DEEF;
+    color: #ffff;
+    padding: 1em;
+}
+
+h1{
+    color: white;
+    font-family: "Open Sans";
+    background-color: blue;
+}
+
+header{
+    border: 2px solid red
+}
+
+.section-2{
+    border: 2px solid red
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-gap: 1rem;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.dog-container{
+    border: 2px solid red
+    height: 25rem;
+    width: 25rem;
+    margin: 5 rem auto;
+}
+
+.dog-container img{
+    max-width: 50%;
+    height: auto;
+    display: flex;
+}
+
+.section-3{
+    border: 2px solid red
+}
+
+h3{
+    color: black;
+    font-family; "Open Sans"
+}
