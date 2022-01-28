@@ -1,0 +1,25 @@
+body{
+    font-family: "Open Sans";
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(233, 233, 233);
+}   
+
+.section-1{
+    background-color: #004175;
+    border: 2px solid #89DEEF;;
+    color: #ffff;
+    padding: .25in;
+}
+
+h1{
+    color: white;
+    padding-left: 30px;
+    font-family: "Open Sans";
+}
+
+.dog-container {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 3fr 3fr;
+}

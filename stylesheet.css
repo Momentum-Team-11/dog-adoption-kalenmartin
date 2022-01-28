@@ -1,5 +1,4 @@
 body{
-    border: 2px solid red
     font-family: "Open Sans";
     margin-left: 10%;
     margin-right: 10%;
@@ -19,20 +18,34 @@ h1{
     font-family: "Open Sans";
 }
 
-.dog-grid{
-    border: 2px solid red;
+.dog-container{
+    width:500px
+    flex-wrap: wrap;
+    flex-basis: auto; /* default auto */
+}
+
+.dog-container > div {
+    flex: 1 1 150px;
+}
+
+.dog-grid {
     display: flex;
     flex-wrap: wrap;
     flex-basis: auto; /* default auto */
-    justify-content: space-between;
-    align-content: flex-start;
+    justify-content: space-around;
 }
 
-.tags{
+.dog-grid > div {
+    flex: 1 1 150px;
+}
+
+ul{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
     background-color: #89DEEF;
+    border-radius: 30%;
 }
 
 .flex-footer-container{
