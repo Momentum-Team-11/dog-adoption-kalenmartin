@@ -14,54 +14,39 @@ body{
 
 h1{
     color: white;
-    padding-left: 30px;
+    padding-left: 20px;
     font-family: "Open Sans";
 }
 
-.dog-container{
-    width:500px
-    flex-wrap: wrap;
-    flex-basis: auto; /* default auto */
+h2{
+    padding-left: 40px;
 }
 
-.dog-container > div {
-    flex: 1 1 150px;
+p{
+    padding-left: 40px;
 }
 
-.dog-grid {
+.dog-portfolios{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: auto; /* default auto */
-    justify-content: space-around;
+    height: 40vh;
+    flex-grow: 1;
+    gap: 1px;
 }
 
-.dog-grid > div {
-    flex: 1 1 150px;
+.img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: top;
 }
 
-ul{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    background-color: #89DEEF;
+span{
+    display: inline-block;
+    font-size: .75rem;
+    gap: .5px;
+    padding: 1%;
+    background-color:#89DEEF;;
     border-radius: 30%;
-}
-
-.flex-footer-container{
-    border: 2px solid red;
-    display: flex;
-    flex-direction: row;
-
-}
-
-.footer-container{
-    width: 50%
-    height: 50px
-}
-
-h3{
-    color: black;
-    font-family; "Open Sans"
-    align-items: center
+    max-width: 75%;
 }
